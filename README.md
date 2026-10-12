@@ -1,8 +1,8 @@
 # VPM-Net: Segmentation Evaluation Utilities
 
-This repository is a **partial code release** accompanying the VPM-Net liver segment segmentation study. It contains only a standalone evaluation script. The model architecture, training pipeline, weights, clinical images, labels, predictions, and numerical results are not included. The complete research code is planned for release after manuscript acceptance, subject to any applicable institutional and publication requirements.
+This repository is a **partial code release** accompanying the VPM-Net liver segment segmentation study. It contains standalone segmentation evaluation and cross-validation summary utilities. The model architecture, training pipeline, weights, clinical images, labels, predictions, and numerical results are not included. The complete research code is planned for release after manuscript acceptance, subject to any applicable institutional and publication requirements.
 
-## Included file
+## Included files
 
 - `evaluate_segmentation.py`: pairs 3D NIfTI reference and prediction masks by filename, checks image geometry, computes per-case Dice, Recall, Precision, IoU, and HD95 for selected labels, and writes per-label mean and sample standard deviation.
 - `summarize_folds.py`: aggregates case-level scores from disjoint outer test folds and reports fold-wise results and mean/sample standard deviation across fold means.
