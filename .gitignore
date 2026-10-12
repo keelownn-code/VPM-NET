@@ -1,0 +1,11 @@
+__pycache__/
+.smoke/
+.venv/
+evaluation_output/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pkl
+*.csv
+
