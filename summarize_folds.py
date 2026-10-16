@@ -1,4 +1,3 @@
-"""Summarize outer-fold case-level scores without accessing model code or images."""
 
 import argparse
 import csv
