@@ -1,4 +1,3 @@
-"""Evaluate paired 3D segmentation masks without loading a model or training code."""
 
 import argparse
 import csv
