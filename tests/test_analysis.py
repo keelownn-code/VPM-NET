@@ -1,5 +1,3 @@
-"""Small synthetic checks; no clinical images or experiment results are included."""
-
 import csv
 import tempfile
 import unittest
